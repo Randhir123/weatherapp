@@ -1,6 +1,8 @@
 # weatherapp
-To build docker image : docker build -t weatherapp:v1 .
+1. Build uber jar: mvn install
 
-To run : docker run -p 8080:8080 weatherapp:v1
+2. Build docker image : docker build -t weatherapp:v1 .
 
-Visit application: http://localhost:8080
+3. Run : docker run -p 8080:8080 weatherapp:v1
+
+4. Visit application: http://localhost:8080
