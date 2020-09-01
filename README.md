@@ -6,3 +6,5 @@
 3. Run : docker run -p 8080:8080 weatherapp:v1
 
 4. Visit application: http://localhost:8080
+
+5. Pull Docker image: docker pull randhirkumars/weatherapp:v1
